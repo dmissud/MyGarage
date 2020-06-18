@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>garage</artifactId>
+        <groupId>org.dbs.garage</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>garage-adapters-web</artifactId>
+    <name>garage-adapters-web</name>
+    <description>Web demo project with garage for Spring Boot</description>
+
+    <dependencies>
+        <!-- ===== Modules ===== -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>garage-business</artifactId>
+        </dependency>
+
+        <!-- ===== Autre dependences ===== -->
+    </dependencies>
+
+</project>
